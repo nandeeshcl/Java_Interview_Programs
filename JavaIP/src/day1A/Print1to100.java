@@ -17,9 +17,7 @@ class Print {
 
 public class Print1to100 {
 	
-	public static void main(String[] args) {
-		System.out.println("Hai");
-	}
+
 
 	public static void main(String[] args) {
 
