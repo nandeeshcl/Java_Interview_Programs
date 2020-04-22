@@ -1,4 +1,4 @@
-package Day1N;
+package Day1A;
 
 public class FibbonacciSeries {
 
@@ -12,15 +12,13 @@ public class FibbonacciSeries {
 
 		sum = first + secound;
 
-		for (int i = 2; i < n; i++) {
+		for (int i = 2; i <= n; i++) {
 			System.out.println(sum + " ");
-
-			first = secound;
-			secound = sum;
-			{
-				System.out.println( sum);
-			}
+		}
+		secound  = first;
+			sum = secound;
+	
+	System.out.println();
 		}
 
 	}
-}

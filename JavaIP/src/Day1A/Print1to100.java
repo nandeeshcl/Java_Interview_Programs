@@ -1,4 +1,7 @@
-package Day1N;
+package Day1A;
+
+import Day1A.Print;
+
 
 class Print {
 
@@ -13,12 +16,14 @@ class Print {
 	}
 }
 
-public class Print1to100 {
+	
+	public class Print1to100 {
 
-	public static void main(String[] args) {
+		public static void main(String[] args) {
 
-		// Print a = new Print();
-		Print.p(10);
+			// Print a = new Print();
+			Print.p(10);
+		}
+
 	}
 
-}
